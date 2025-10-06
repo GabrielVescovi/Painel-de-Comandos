@@ -1,0 +1,19 @@
+JAR: Caminhoarquivo/db2jcc.jar
+
+CLASSE DO DRIVER: com.ibm.db2.jcc.DB2Driver
+
+URL:jdbc:db2://10.3.0.154:30186/CISSERP
+
+USUARIO: dba
+
+senha: ver a senha do banco do cliente
+
+Visualização de produto:EMP1_BUSCA_PRECO_GERTEC_VW
+
+
+AVANÇADO
+CÓDIGO DE BARRAS: CODBAR
+
+DESCRIÇÃO: DESCRICAO
+
+PREÇO:1 PRECO
