@@ -1,0 +1,2 @@
+cissbox-image-homologacao-cissbox-rpi-r3-4.38.0-20250414144734.rootfs[[:space:]](1).wic.gz filter=lfs diff=lfs merge=lfs -text
+dbeaver-ce-26.0.5-windows-x86_64.exe filter=lfs diff=lfs merge=lfs -text
