@@ -213,9 +213,3 @@ insert into config_teclas values  ('1', '145', '24', '', 'Tabela Rápida por Cat
 insert into config_teclas values  ('1', '308', '1', 'Key_F7', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
 insert into config_teclas values  ('1', '201', '1', 'Key_S', 'Consultar Saldo Cliente', '', now(), 'T', 'F');
 insert into config_teclas values  ('1', '111', '1', 'Key_I', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
-
---Ajuste para deixar todos como operador
-update usuario set tipousuario = 'O';
-
---Ajuste para permitir entrar nas configs apenas esses usuarios
-update usuario set tipousuario = 'G' where idusuario in(150710, 99901, 150716, 150693, 150685);
