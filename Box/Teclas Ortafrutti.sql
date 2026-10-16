@@ -106,3 +106,4 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '308', '1', 'Key_F7', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '201', '1', 'Key_S', 'Consultar Saldo Cliente', '', now(), 'T', 'F');
  insert into config_teclas values  ('1', '111', '1', 'Key_I', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
+update config_fechamento_venda set flagatribuirvalorliquido = 'T';
