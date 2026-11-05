@@ -108,3 +108,4 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '111', '1', 'Key_I', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
 update config_fechamento_venda set flagatribuirvalorliquido = 'T';
 update usuario set tipousuario = 'O' where idusuario in (12,15,18,20,29,31,33,35,73,75,77,79,83,84,88,92,4509,4510,4513,4515,4517,4520,4524,4528,4608,4613,4617,4630,4638,4646,4672,4674);
+update config_forma_pagto set qtviascomprovantecliente = 1 where idformapagtoerp = 8;
