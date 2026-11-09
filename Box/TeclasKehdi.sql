@@ -1,0 +1,109 @@
+Delete From Config_teclas;
+insert into config_teclas values  ('1', '308', '1', '', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '1', '1', 'Key_Escape', 'Cancelar', '[LIMPA] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '5', '1', '', 'Tabela Rápida', '[TABELA] ', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '318', '1', '', 'Tabela de Preços', '[TABELA_PRECO_PRODUTO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '16', '1', 'Key_Control', 'Informar Cliente', '[INFORMAR CLIENTE] ', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '144', '1', '', 'Título TEF', '[TÍTULO TEF] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '206', '1', '', 'Adiantamento', '[ADIANTAMENTO] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '207', '1', '', 'Preço Diferenciado', '[PREÇO DIFERENCIADO] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '210', '1', '', 'Consultar Estoque', '[CONSULTAR ESTOQUE]', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '220', '1', '', 'Importar Orçamento', '[IMPORTAR ORCAMENTO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '223', '1', '', 'Receber Ticket Estacionamento', '[RECEBER TICKET ESTACIONAMENTO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '301', '1', '', 'Clube de Benefícios', '[CLUBE DE BENEFÍCIOS]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '302', '1', '', 'Gerar Comanda', '[GERAR COMANDA]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '7', '1', 'Key_P', 'Consultar Preço', '[CONSULTAR PREÇO] ', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '204', '1', 'Key_L', 'Acionar Pin Pad', '[ACIONAR PIN PAD] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '148', '1', 'Key_F4', 'Recuperar Nota', '[RECUPERAR NOTA] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '51', '1', 'Key_Up', 'Voltar', '[VOLTA PÁGINA] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '312', '2', 'Key_K', 'Pré-Cadastrar Cliente', '[PRE_CADASTRO_CLIENTE] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '306', '2', 'Key_Q', '% Acréscimo', '[ACRESCIMO PERCENTUAL]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '216', '1', '', 'Menu Dotz', '[MENU DOTZ]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '219', '1', '', 'Troco Digital', '[TROCO DIGITAL AVULSO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '226', '1', '', 'Vale Gás', '[VALE GÁS]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '232', '1', '', 'Taxa de Entrega', '[TAXA DE ENTREGA]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '233', '1', '', 'R$ Taxa de Entrega', '[R$ TAXA DE ENTREGA]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '247', '1', '', 'Consultar Cartão Presente', '[CONSULTAR_CARTAO_PRESENTE]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '300', '1', '', 'Pesquisar', '[PESQUISAR]', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '303', '1', '', 'Importar Pedido Cestou', '[IMPORTAR PEDIDO CESTOU]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '304', '1', '', 'Lançar Despesa', '[LANCAR DESPESAS]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '305', '1', '', 'R$ Acréscimo', '[ACRESCIMO VALOR]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '307', '1', '', 'Importar Pedido', '[IMPORTAR PEDIDO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '309', '1', '', 'Saque', '[SAQUE]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '310', '1', '', 'R$ Taxa de Serviço', '[TAXA_SERVICO_VALOR] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '311', '1', '', '% Taxa de Serviço', '[TAXA_SERVICO_PERCENTUAL] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '313', '1', '', 'Cadastrar Senha', '[CADASTRAR_SENHA] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '314', '1', 'Key_F10', 'Atualizar CISSLive PDV', '[ATUALIZAR_CAIXA] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '315', '1', '', 'Informar Voucher', '[INFORMAR_VOUCHER] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '316', '1', '', 'Revendedor', '[REVENDEDOR] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '317', '1', '', 'Editar Item', '[EDITAR_PRODUTO]', now(), 'F', 'F');
+         
+ insert into config_teclas values  ('1', '4', '1', 'Key_Asterisk', 'Vezes', '[*] ', now(), 'F', 'T');
+         
+         
+ insert into config_teclas values  ('1', '9', '1', 'Key_F11', 'Pausar Caixa', '[PAUSA] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '11', '1', 'Key_G', 'Abrir Gaveta', '[GAVETA] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '12', '1', 'Key_F8', 'Reforço de Caixa', '[REFORCO] ', now(), 'F', 'F');
+         
+ insert into config_teclas values  ('1', '15', '2', 'Key_F4', 'Retirada do Caixa', '[RETIRADA] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '109', '1', 'Key_F4', 'Relatório de Conferência', '', now(), 'F', 'F');
+         
+         
+ insert into config_teclas values  ('1', '20', '1', 'Key_Space', 'Fechar Venda', '[SUBTOTAL] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '3', '1', 'Key_F5', 'Cancelar Item', '[CANCELA ITEM] ', now(), 'F', 'F');
+         
+         
+ insert into config_teclas values  ('1', '22', '1', 'Key_X', 'Forma Pgto 2', '', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '23', '1', 'Key_C', 'Forma Pgto 3', '', now(), 'F', 'T');
+         
+ insert into config_teclas values  ('1', '25', '1', 'Key_V', 'Forma Pgto 5', '', now(), 'F', 'T');
+         
+ insert into config_teclas values  ('1', '142', '1', 'Key_F7', 'Alterar Documento Eletrônico', '[ALTERAR DOCUMENTO ELETRÔNICO] ', now(),-- 'T', 'T');
+ insert into config_teclas values  ('1', '17', '1', 'Key_Q', 'R$ Desconto', '[DESCITEM] ', now(), 'F', 'F');
+         
+         
+         
+         
+         
+         
+ insert into config_teclas values  ('1', '119', '1', 'Key_F4', 'Fechamento Físico', '[FECHAMENTO FÍSICO] ', now(), 'F', 'F');
+         
+         
+         
+ insert into config_teclas values  ('1', '100', '1', 'Key_Backspace', 'Corrigir Digitação', '[CORRIGE] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '101', '1', 'Key_Period', 'Tecla para Informar Fração', '[.] ', now(), 'F', 'T');
+         
+ insert into config_teclas values  ('1', '24', '1', 'Key_R', 'Forma Pgto 4', '', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '115', '1', 'Key_F3', 'Menu TEF', '[MENU TEF] ', now(), 'F', 'T');
+         
+         
+ insert into config_teclas values  ('1', '18', '1', 'Key_Q', '% Desconto', '[DESCGERAL] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '19', '1', 'Key_F12', 'Desligar', '[DESLIGAR] ', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '2', '1', 'Key_F6', 'Cancelar Nota', '[CANCELA CUPOM] ', now(), 'F', 'F');
+         
+ insert into config_teclas values  ('1', '145', '1', 'Key_T', 'Tabela Rápida por Categoria', '[TABELA RAPIDA] ', now(), 'T', 'F');
+         
+         
+         
+ insert into config_teclas values  ('1', '149', '1', 'Key_F4', 'Reimprimir DANFE', '[REIMPRIMIR DANFE] ', now(), 'F', 'F');
+         
+ insert into config_teclas values  ('1', '21', '1', 'Key_D', 'Forma Pgto 1', '', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '14', '1', 'Key_F4', 'Fechar Caixa', '[REDUCAO Z] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '200', '1', 'Key_F1', 'Ajuda', '[AJUDA] ', now(), 'T', 'T');
+         
+ insert into config_teclas values  ('1', '50', '1', 'Key_Down', 'Avançar', '[AVANÇA PÁGINA] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '13', '1', 'Key_T', 'Trocar Operador', '[TROCA OPERADOR] ', now(), 'T', 'F');
+         
+         
+ insert into config_teclas values  ('1', '116', '1', 'Key_F10', 'Sobre o CISSLive PDV', '[SOBRE O CISSLIVE PDV] ', now(), 'F', 'F');
+         
+ insert into config_teclas values  ('1', '32', '1', '', 'Forma Pgto 12', '', now(), 'F', 'T');
+         
+ insert into config_teclas values  ('1', '8', '2', 'Key_B', 'Consultar Produto', '[CONSULTAR PRODUTO]', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '123', '1', 'Key_U', 'Informar Vendedor', '[INFORMAR VENDEDOR] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '143', '1', 'Key_I', 'Importar Comanda', '[IMPORTAR COMANDA]', now(), 'F', 'F');
+         
+         
+         
+         
+ insert into config_teclas values  ('1', '111', '1', 'Key_F4', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
