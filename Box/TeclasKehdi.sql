@@ -48,7 +48,7 @@ insert into config_teclas values  ('1', '308', '1', '', 'Reiniciar CISSLive PDV'
  insert into config_teclas values  ('1', '22', '1', 'Key_X', 'Forma Pgto 2', '', now(), 'F', 'T');
  insert into config_teclas values  ('1', '23', '1', 'Key_C', 'Forma Pgto 3', '', now(), 'F', 'T');  
  insert into config_teclas values  ('1', '25', '1', 'Key_V', 'Forma Pgto 5', '', now(), 'F', 'T');   
- insert into config_teclas values  ('1', '142', '1', 'Key_F7', 'Alterar Documento Eletrônico', '[ALTERAR DOCUMENTO ELETRÔNICO] ', now(),-- 'T', 'T');
+ insert into config_teclas values  ('1', '142', '1', 'Key_F7', 'Alterar Documento Eletrônico', '[ALTERAR DOCUMENTO ELETRÔNICO] ', now(),'T', 'T');
  insert into config_teclas values  ('1', '17', '1', 'Key_Q', 'R$ Desconto', '[DESCITEM] ', now(), 'F', 'F'); 
  insert into config_teclas values  ('1', '119', '1', 'Key_F4', 'Fechamento Físico', '[FECHAMENTO FÍSICO] ', now(), 'F', 'F');   
  insert into config_teclas values  ('1', '100', '1', 'Key_Backspace', 'Corrigir Digitação', '[CORRIGE] ', now(), 'F', 'T');
