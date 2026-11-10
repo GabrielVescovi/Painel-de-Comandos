@@ -1,6 +1,6 @@
 Delete From Config_teclas;
 insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação', '[INFORMAR OBSERVACAO]', now(), 'F', 'F');
- insert into config_teclas values  ('1', '149', '1', 'Key_J', 'Reimprimir DANFE', '[REIMPRIMIR DANFE] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '149', '1', 'Key_R', 'Reimprimir DANFE', '[REIMPRIMIR DANFE] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '1', '1', 'Key_Escape', 'Cancelar', '[LIMPA] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '5', '1', 'Key_Up', 'Tabela Rápida', '[TABELA] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '6', '1', 'Key_Right', 'Vender Utilizando Item Geral', '[ITEM GERAL] ', now(), 'F', 'F');
@@ -101,7 +101,7 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '22', '1', 'Key_F2', 'Forma Pgto 2', '', now(), 'F', 'T');
  insert into config_teclas values  ('1', '25', '4', 'Key_F5', 'Forma Pgto 5', '', now(), 'F', 'T');
  insert into config_teclas values  ('1', '151', '2', 'Key_T', 'Receber Títulos', '[RECEBER TÍTULOS]', now(), 'F', 'F');
- insert into config_teclas values  ('1', '148', '1', 'Key_R', 'Recuperar Nota', '[RECUPERAR NOTA] ', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '148', '1', 'Key_V', 'Recuperar Nota', '[RECUPERAR NOTA] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '145', '24', '', 'Tabela Rápida por Categoria', '[TABELA RAPIDA] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '308', '1', 'Key_F7', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '201', '1', 'Key_S', 'Consultar Saldo Cliente', '', now(), 'T', 'F');
