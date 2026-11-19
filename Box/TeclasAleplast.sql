@@ -78,13 +78,13 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '232', '1', '', 'Taxa de Entrega', '[TAXA DE ENTREGA]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '233', '1', '', 'R$ Taxa de Entrega', '[R$ TAXA DE ENTREGA]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '247', '1', '', 'Consultar Cartão Presente', '[CONSULTAR_CARTAO_PRESENTE]', now(), 'F', 'F');
- insert into config_teclas values  ('1', '300', '1', '', 'Pesquisar', '[PESQUISAR]', now(), 'F', 'T');
+ insert into config_teclas values  ('1', '300', '1', 'Key_Z', 'Pesquisar', '[PESQUISAR]', now(), 'F', 'T');
  insert into config_teclas values  ('1', '301', '1', '', 'Clube de Benefícios', '[CLUBE DE BENEFÍCIOS]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '302', '1', '', 'Gerar Comanda', '[GERAR COMANDA]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '304', '1', '', 'Lançar Despesa', '[LANCAR DESPESAS]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '305', '1', '', 'R$ Acréscimo', '[ACRESCIMO VALOR]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '306', '1', '', '% Acréscimo', '[ACRESCIMO PERCENTUAL]', now(), 'F', 'F');
- insert into config_teclas values  ('1', '307', '1', '', 'Importar Pedido', '[IMPORTAR PEDIDO]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '307', '1', 'Key_I', 'Importar Pedido', '[IMPORTAR PEDIDO]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '309', '1', '', 'Saque', '[SAQUE]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '310', '1', '', 'R$ Taxa de Serviço', '[TAXA_SERVICO_VALOR] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '311', '1', '', '% Taxa de Serviço', '[TAXA_SERVICO_PERCENTUAL] ', now(), 'F', 'F');
@@ -105,6 +105,6 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '145', '24', '', 'Tabela Rápida por Categoria', '[TABELA RAPIDA] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '308', '1', 'Key_F7', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '201', '1', 'Key_S', 'Consultar Saldo Cliente', '', now(), 'T', 'F');
- insert into config_teclas values  ('1', '111', '1', 'Key_I', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '111', '1', 'Key_J', 'Reimprimir Comprovante', '[REIMPRIMIR COMPROVANTE] ', now(), 'F', 'F');
 update config_fechamento_venda set flagatribuirvalorliquido = 'T';
 update cliente set flaginativo = 'F' where flaginativo = 'T';
