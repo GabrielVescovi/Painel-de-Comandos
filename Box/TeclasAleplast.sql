@@ -28,7 +28,7 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '120', '1', '', 'Produtividade do Operador', '[PRODUTIVIDADE DO OPERADOR] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '121', '1', '', 'Gerar Etiqueta', '[GERAR_ETIQUETA] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '122', '8', '', 'Programa Sócio Torcedor AMBEV', '[PROGRAMA SOCIO TORCEDOR AMBEV] ', now(), 'F', 'F');
- insert into config_teclas values  ('1', '123', '1', '', 'Informar Vendedor', '[INFORMAR VENDEDOR] ', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '123', '1', 'Key_B', 'Informar Vendedor', '[INFORMAR VENDEDOR] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '124', '1', '', 'Selecionar cliente por biometria', '[SELECIONA CLIENTE POR BIOMETRIA] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '140', '1', 'Key_M', 'Menu Fiscal', '[MENU FISCAL] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '26', '1', 'Key_F6', 'Forma Pgto 6', '', now(), 'F', 'T');
@@ -51,7 +51,7 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '14', '2', 'Key_F', 'Fechar Caixa', '[REDUCAO Z] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '119', '1', 'Key_F', 'Fechamento Físico', '[FECHAMENTO FÍSICO] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '21', '1', 'Key_F1', 'Forma Pgto 1', '', now(), 'F', 'T');
- insert into config_teclas values  ('1', '109', '21', '', 'Relatório de Conferência', '', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '109', '21', 'Key_F', 'Relatório de Conferência', '', now(), 'F', 'F');
  insert into config_teclas values  ('1', '24', '1', 'Key_F4', 'Forma Pgto 4', '', now(), 'F', 'T');
  insert into config_teclas values  ('1', '12', '3', 'Key_F', 'Reforço de Caixa', '[REFORCO] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '17', '2', 'Key_D', 'R$ Desconto', '[DESCITEM] ', now(), 'F', 'F');
