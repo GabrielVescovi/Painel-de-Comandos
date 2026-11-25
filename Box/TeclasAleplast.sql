@@ -56,7 +56,7 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '12', '3', 'Key_F', 'Reforço de Caixa', '[REFORCO] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '17', '2', 'Key_D', 'R$ Desconto', '[DESCITEM] ', now(), 'F', 'F');
  insert into config_teclas values  ('1', '15', '4', 'Key_F', 'Retirada do Caixa', '[RETIRADA] ', now(), 'F', 'F');
- insert into config_teclas values  ('1', '13', '23', '', 'Trocar Operador', '[TROCA OPERADOR] ', now(), 'T', 'F');
+ insert into config_teclas values  ('1', '13', '23', 'Key_T', 'Trocar Operador', '[TROCA OPERADOR] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '51', '2', 'Key_Up', 'Voltar', '[VOLTA PÁGINA] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '4', '1', 'Key_Asterisk', 'Vezes', '[*] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '143', '1', '', 'Importar Comanda', '[IMPORTAR COMANDA]', now(), 'F', 'F');
@@ -100,7 +100,7 @@ insert into config_teclas values  ('1', '208', '1', '', 'Informar Observação',
  insert into config_teclas values  ('1', '142', '1', 'Key_N', 'Alterar Documento Eletrônico', '[ALTERAR DOCUMENTO ELETRÔNICO] ', now(), 'T', 'T');
  insert into config_teclas values  ('1', '22', '1', 'Key_F2', 'Forma Pgto 2', '', now(), 'F', 'T');
  insert into config_teclas values  ('1', '25', '4', 'Key_F5', 'Forma Pgto 5', '', now(), 'F', 'T');
- insert into config_teclas values  ('1', '151', '2', 'Key_T', 'Receber Títulos', '[RECEBER TÍTULOS]', now(), 'F', 'F');
+ insert into config_teclas values  ('1', '151', '2', '', 'Receber Títulos', '[RECEBER TÍTULOS]', now(), 'F', 'F');
  insert into config_teclas values  ('1', '148', '1', 'Key_V', 'Recuperar Nota', '[RECUPERAR NOTA] ', now(), 'F', 'T');
  insert into config_teclas values  ('1', '145', '24', '', 'Tabela Rápida por Categoria', '[TABELA RAPIDA] ', now(), 'T', 'F');
  insert into config_teclas values  ('1', '308', '1', 'Key_F7', 'Reiniciar CISSLive PDV', '[REINICIAR CISSLIVE PDV]', now(), 'F', 'F');
